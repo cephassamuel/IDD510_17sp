@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Landing Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@media only screen
+and (min-width : 321px) {
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    float: left;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+body {
+	background-image: url("Bg.png");
+	max-height: 600px;
+}
+code {
+  background: #0080B2;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+section {
+	margin: 0 -10% 10px -10%;
+	float: left;
+  width: 23%;
+  margin-left: 220px;
+}
+button {
+	margin-bottom: 20px;
+	font: 14px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+h1 {
+	font: 24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+section.1{
+	font: 24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+}
+</style>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="container">
+<header>
+   <h1>About Me</h1>
+   <img src="Photo.png" max width="80px">
+</header>
+  
+<nav>
+  <ul>
+    <button><li><a href="#">About the Team</a></li></button><br>
+    <button><li><a href="#">Our Clients</a></li></button><br>
+    <button><li><a href="#">Our Latest Work</a></li></button>
+  </ul>
+</nav>
+<div class="fb-follow" data-href="https://www.facebook.com/cephas.samuel.5" data-layout="standard" data-size="small" data-show-faces="true"></div>
+<article>
+  <h1>Cephas Samuel - Visual/UI Designer</h1>
+  <p>I'm Cephas Samuel a visual designer from Chennai, India. I have quite a few years of experience in design and animation and I have worked in two companies such as Cognizant and McKenzie as a Visual Designer.</p>
+  <p>I have an Undergraduate Degree in Visual Communication and a Diploma in Design and Animation where I learnt the fundamentals to Designing. I have joined the Masters program at Philadelphia University to further my studies in User Experience and Interactive Design.</p>
+</article>
+<section>
+  <code> Years of Experience in Photoshop <br> <h1>5</h1></code></section>
+
+<section>
+  <code> Years of Experience in Illustrator<br> <h1>3</h1></code></section>
+
+<section>
+  <code> Years of Experience in InDesign<br> <h1>3</h1></code></section>
+ <section>
+  	<h1>My Hobbies</h1>
+  	<p>I love to play music on my guitar and listen to new music everyday. I have completed the 6th Grade in Western Classical Piano by Trinity College London.</p>
+  	<p>I also love to cook new dishes and learn from culinary experts around the world. I am also a foodie and I love new cultures and the different flavors in each cooking style.</p></section>
+</div>
+<footer>Copyright@2017</footer>
+</body>
+</html>
