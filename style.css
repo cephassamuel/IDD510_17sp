@@ -1,0 +1,137 @@
+body {
+width: 100%;
+margin: 0 auto;
+}
+
+.home {
+    width: 100%;
+    background-color: #dedede;
+}
+.container {
+    background-color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+.first {
+    padding-left: 17%;
+    padding-top: 60px;
+    width: 400px;
+    display: inline;
+}
+
+.first img {
+    display: inline;
+}
+
+.first h3 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    margin: 0 auto;
+    display: inline;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-left: 15%;
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 100;
+}
+
+h4 {
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 15%;
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 100;
+}
+
+ul {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.image {
+     text-align: center;
+}
+.image img {
+   padding-top: 20px;
+   width: 20%; 
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 101;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    background-color: #dedede;
+    width: 100%;
+}
+.follow {
+    background-color: #002133;
+    height: 60px;
+    
+}
+.fw {
+    color: #FFFFFF;
+    display: inline;
+    position: relative;
+    top: -10px;
+
+}
+.footer img {
+    margin-top: 15px; 
+    padding-left: 10px;   
+}
+
+.follow h4 {
+    padding-left: 0;
+}
+
+.footer ul, li {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+.footer a {
+    font-size: 16px;
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 101;
+}
+
+.footer p {
+    font-size: 14px;
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 100;
+}
+
+
+
+
+
